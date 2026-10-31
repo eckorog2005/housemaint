@@ -1,0 +1,3 @@
+# Extraction uses a cloud LLM despite local-first
+
+Extraction sends the Manual PDF itself, not its extracted text, to a cloud LLM using the user's own API key. A PDF is sent only when the user asks for Extraction. Everything else runs offline, and adding Tasks by hand works fully without a key. Rule-based extraction can't cope with how varied manuals are, and requiring a local model is a heavy install up front. Sending the PDF lets the model read scanned manuals. Results are stored by file hash so the same Manual isn't sent twice. The extractor sits behind a narrow interface so a local model can be added later.

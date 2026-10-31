@@ -33,7 +33,7 @@ Existing tools make you type every task and interval in by hand. Few people keep
 - [ ] Add recurring tasks by hand (interval based, such as every N days, months or years)
 - [ ] Mark a task done, with a date and optional note and cost, and keep a history log
 - [ ] Overview of overdue tasks, tasks due soon and upcoming tasks
-- [ ] Export all data (JSON or CSV)
+- [ ] Export all data (JSON)
 
 ## Later / nice to have
 
